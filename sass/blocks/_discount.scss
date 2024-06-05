@@ -1,0 +1,524 @@
+.discount{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.discount__body{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    .discount__text{
+        display: flex;
+        gap: 15px;
+
+        .discount__title{
+            display: flex;
+
+            .discount__paragraph{
+                font-size: 16px;
+                font-weight: 500;
+                color: rgb(160,160,174);
+
+                &:hover{
+                    cursor: pointer;
+                    color: black;
+                }
+            }
+        }
+    }  
+
+    .discount__collection{
+        display: flex;
+
+        .wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 36px;
+
+            .discount__items{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 250px;
+                height: 310px;
+                background: rgba(242, 235, 235, 0.63);
+                border-radius: 10px;
+                transition: .7s;
+
+                &:hover{
+                    cursor: pointer;
+                    background: rgba(35, 221, 35, 0.788);
+                }
+
+                .picture{
+                    display: flex;
+
+                    .images{
+                        display: flex;
+                        border-radius: 10px;
+                        width: 250px;
+                    }
+                }
+
+                .discount__text{    
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1px;
+                    padding-left: 10px;
+
+                    .discount__name{
+                        font-size: 18px;
+                        font-weight: 700;
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+
+                    .discount__price{
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    }
+
+                    .addres{
+                        font-size: 12px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1158px) {
+    .discount__body{
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+    
+        .discount__text{
+            display: flex;
+            gap: 10px;
+    
+            .discount__title{
+                display: flex;
+    
+                .discount__paragraph{
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgb(160,160,174);
+    
+                    &:hover{
+                        cursor: pointer;
+                        color: black;
+                    }
+                }
+            }
+        }  
+    
+        .discount__collection{
+            display: flex;
+    
+            .wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 25px;
+    
+                .discount__items{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    width: 23%;
+                    height: 310px;
+                    background: rgba(242, 235, 235, 0.63);
+                    border-radius: 10px;
+                    transition: .7s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        background: rgba(35, 221, 35, 0.788);
+                    }
+    
+                    .picture{
+                        display: flex;
+    
+                        .images{
+                            display: flex;
+                            border-radius: 10px;
+                            width: 100%;
+                        }
+                    }
+    
+                    .discount__text{    
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1px;
+                        padding-left: 10px;
+    
+                        .discount__name{
+                            font-size: 16px;
+                            font-weight: 700;
+                            font-family: 'Times New Roman', Times, serif;
+                        }
+    
+                        .discount__price{
+                            font-size: 14px;
+                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        }
+    
+                        .addres{
+                            font-size: 10px;
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width:987px) {
+    .discount__body{
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+    
+        .discount__text{
+            display: flex;
+            gap: 10px;
+    
+            .discount__title{
+                display: flex;
+    
+                .discount__paragraph{
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: rgb(160,160,174);
+    
+                    &:hover{
+                        cursor: pointer;
+                        color: black;
+                    }
+                }
+            }
+        }  
+    
+        .discount__collection{
+            display: flex;
+    
+            .wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+    
+                .discount__items{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1px;
+                    width: 23%;
+                    height: 50%;
+                    background: rgba(242, 235, 235, 0.63);
+                    border-radius: 10px;
+                    transition: .7s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        background: rgba(35, 221, 35, 0.788);
+                    }
+    
+                    .picture{
+                        display: flex;
+    
+                        .images{
+                            display: flex;
+                            border-radius: 10px;
+                            width: 100%;
+                        }
+                    }
+    
+                    .discount__text{    
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1px;
+                        padding-left: 10px;
+    
+                        .discount__name{
+                            font-size: 16px;
+                            font-weight: 700;
+                            font-family: 'Times New Roman', Times, serif;
+                        }
+    
+                        .discount__price{
+                            font-size: 14px;
+                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        }
+    
+                        .addres{
+                            font-size: 10px;
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width:800px) {
+    .discount__body{
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+    
+        .discount__text{
+            display: flex;
+            gap: 10px;
+    
+            .discount__title{
+                display: flex;
+    
+                .discount__paragraph{
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: rgb(160,160,174);
+    
+                    &:hover{
+                        cursor: pointer;
+                        color: black;
+                    }
+                }
+            }
+        }  
+    
+        .discount__collection{
+            display: flex;
+    
+            .wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 14px;
+    
+                .discount__items{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1px;
+                    width: 23%;
+                    height: 50%;
+                    background: rgba(242, 235, 235, 0.63);
+                    border-radius: 10px;
+                    transition: .7s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        background: rgba(35, 221, 35, 0.788);
+                    }
+    
+                    .picture{
+                        display: flex;
+    
+                        .images{
+                            display: flex;
+                            border-radius: 10px;
+                            width: 100%;
+                        }
+                    }
+    
+                    .discount__text{    
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1px;
+                        padding-left: 7px;
+    
+                        .discount__name{
+                            font-size: 14px;
+                            font-weight: 700;
+                            font-family: 'Times New Roman', Times, serif;
+                        }
+    
+                        .discount__price{
+                            font-size: 12px;
+                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        }
+    
+                        .addres{
+                            font-size: 10px;
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width:650px) {
+    .discount__body{
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+    
+        .discount__text{
+            display: flex;
+            gap: 10px;
+    
+            .discount__title{
+                display: flex;
+    
+                .discount__paragraph{
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: rgb(160,160,174);
+    
+                    &:hover{
+                        cursor: pointer;
+                        color: black;
+                    }
+                }
+            }
+        }  
+    
+        .discount__collection{
+            display: flex;
+    
+            .wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 5%;
+    
+                .discount__items{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1px;
+                    width: 30%;
+                    height: 35%;
+                    background: rgba(242, 235, 235, 0.63);
+                    border-radius: 10px;
+                    transition: .7s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        background: rgba(35, 221, 35, 0.788);
+                    }
+    
+                    .picture{
+                        display: flex;
+    
+                        .images{
+                            display: flex;
+                            border-radius: 10px;
+                            width: 100%;
+                        }
+                    }
+    
+                    .discount__text{    
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1px;
+                        padding-left: 7px;
+    
+                        .discount__name{
+                            font-size: 14px;
+                            font-weight: 700;
+                            font-family: 'Times New Roman', Times, serif;
+                        }
+    
+                        .discount__price{
+                            font-size: 12px;
+                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        }
+    
+                        .addres{
+                            font-size: 10px;
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width:450px) {
+    .discount__body{
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+    
+        .discount__text{
+            display: flex;
+            gap: 10px;
+    
+            .discount__title{
+                display: flex;
+    
+                .discount__paragraph{
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: rgb(160,160,174);
+    
+                    &:hover{
+                        cursor: pointer;
+                        color: black;
+                    }
+                }
+            }
+        }  
+    
+        .discount__collection{
+            display: flex;
+    
+            .wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 6%;
+    
+                .discount__items{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1px;
+                    width: 47%;
+                    height: 27%;
+                    background: rgba(242, 235, 235, 0.63);
+                    border-radius: 10px;
+                    transition: .7s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        background: rgba(35, 221, 35, 0.788);
+                    }
+    
+                    .picture{
+                        display: flex;
+    
+                        .images{
+                            display: flex;
+                            border-radius: 10px;
+                            width: 100%;
+                        }
+                    }
+    
+                    .discount__text{    
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1px;
+                        padding-left: 7px;
+    
+                        .discount__name{
+                            font-size: 14px;
+                            font-weight: 700;
+                            font-family: 'Times New Roman', Times, serif;
+                        }
+    
+                        .discount__price{
+                            font-size: 12px;
+                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        }
+    
+                        .addres{
+                            font-size: 10px;
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
